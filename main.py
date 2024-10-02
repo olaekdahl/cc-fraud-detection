@@ -8,8 +8,8 @@ import numpy as np
 import pandas as pd
 
 # Load the trained model and scaler
-model = joblib.load('fraud_detection_model.pkl')
-scaler = joblib.load('scaler.pkl')
+model = joblib.load('fraud_detection_model_v1.pkl')
+scaler = joblib.load('scaler_v1.pkl')
 
 # Initialize FastAPI
 app = FastAPI()
